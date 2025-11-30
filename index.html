@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8" />
+  <title>২০২৬ নির্বাচনে কপালে কি দুর্গতি আছে?</title>
+  <base href="/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <style>
+    body {
+      font-family: 'Baloo Da 2', cursive;
+    }
+    .shake-animation {
+      animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both infinite;
+      transform: translate3d(0, 0, 0);
+      backface-visibility: hidden;
+      perspective: 1000px;
+    }
+    @keyframes shake {
+      10%, 90% { transform: translate3d(-1px, 0, 0); }
+      20%, 80% { transform: translate3d(2px, 0, 0); }
+      30%, 50%, 70% { transform: translate3d(-4px, 0, 0); }
+      40%, 60% { transform: translate3d(4px, 0, 0); }
+    }
+    .fade-in {
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "rxjs": "https://esm.sh/rxjs@7.8.1",
+    "rxjs/operators": "https://esm.sh/rxjs@7.8.1/operators",
+    "@angular/platform-browser": "https://esm.sh/@angular/platform-browser@18.0.1?external=rxjs",
+    "@angular/compiler": "https://esm.sh/@angular/compiler@18.0.1?external=rxjs",
+    "@angular/core": "https://esm.sh/@angular/core@18.0.1?external=rxjs",
+    "@angular/common": "https://esm.sh/@angular/common@18.0.1?external=rxjs"
+  }
+}
+</script>
+</head>
+<body class="bg-black">
+  <app-root></app-root>
+</body>
+</html>
